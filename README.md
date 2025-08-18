@@ -8,12 +8,6 @@
 
 La aplicación fue desarrollada para resolver la problemática de la **"planificación, ejecución y análisis de un partido de fútbol"**.
 
-## 🌐 Sitio Web y Repositorio
-
-  * **Repositorio de Github:** [github.com/BringFeel/FutbolStats](https://www.google.com/search?q=https://github.com/BringFeel/FutbolStats)
-  * **Sitio Web (V1):** [bringfeel.github.io/FutbolStats/](https://www.google.com/search?q=https://bringfeel.github.io/FutbolStats/)
-  * **Sitio Web (V2):** [bringfeel.github.io/FutbolStats/V2](https://www.google.com/search?q=http://bringfeel.github.io/FutbolStats/V2) - *Versión mejor estructurada pero con menos funcionalidades.*
-
 ## ✨ Funcionalidades Principales
 
 Este sistema ofrece una solución completa para el seguimiento de un equipo, cubriendo las siguientes áreas:
