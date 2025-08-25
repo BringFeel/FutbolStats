@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Gestión de Partidos de Fútbol</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚽ Sistema de Gestión de Partidos</h1>
+            <p>Planificación, Ejecución y Análisis</p>
+        </div>
+
+        <div id="message-area" class="message" style="display: none;"></div>
+
+        <div class="tabs">
+            <div class="tab" data-tab="planning">
+                <a href="#">📋 Planificación</a>
+            </div>
+            <div class="tab" data-tab="execution">
+                <a href="#">⚡ Ejecución</a>
+            </div>
+            <div class="tab" data-tab="analysis">
+                <a href="#">📊 Análisis</a>
+            </div>
+        </div>
+
+        <div id="content-area" class="content">
+            </div>
+    </div>
+
+    <style media="print">
+        body { background: white !important; color: black !important; }
+        .container { box-shadow: none !important; }
+        .content { background: white !important; backdrop-filter: none !important; }
+        .tabs, .btn { display: none !important; }
+        .player-card, .stat-card, .report-section {
+            background: #f5f5f5 !important;
+            color: black !important;
+            break-inside: avoid;
+        }
+        .header h1 { color: black !important; text-shadow: none !important; }
+    </style>
+</body>
+<script src="./assets/js/main.js"></script>
+</html>
